@@ -39,3 +39,6 @@ $ rails server
 
 詳しくは、[*Ruby on Rails チュートリアル*](https://railstutorial.jp/)
 を参考にしてください。
+
+メモ・・・・・・・・・・・・・
+/static_pages/homeというURLにアクセスすると、RailsはStaticPagesコントローラを参照し、homeアクションに記述されているコードを実行します。その後、そのアクションに対応するビューを出力します。homeアクションが空の場合、/static_pages/homeにアクセスしても、単に対応するビューが出力されるだけです。
